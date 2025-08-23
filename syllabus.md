@@ -61,7 +61,7 @@ It is your responsibility to:
 - Be resourceful and persevering. It pays to sit with a problem. Form and test hypotheses, debug your program, read the docs and consult sources, ask questions, but _don’t give up or wait around for someone else to solve your problems_.
 - Follow the Responsible Use of Technology policy (below).
 - If you’re absent:
-  - consult the Northridge Dev course log
+  - consult the Northridge Dev [course log](https://github.com/northridge-dev/nrp-ms-python)
   - talk to me to arrange make-up work
   - get notes from a classmate.
 
@@ -81,4 +81,3 @@ Follow the Computer and Network Technology policy in the student handbook. If yo
 ## **Use of Artificial Intelligence**
 
 AI is already a widely-adopted productivity tool in software development. We will practice using AI as a _learning_ tool, exploring ways it can help and hinder those learning to code.
-

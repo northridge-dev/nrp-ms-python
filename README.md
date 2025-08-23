@@ -4,10 +4,10 @@
 
 ## In-class Assignments
 
-| Assignment         | Due             |
-| :----------------- | :-------------- |
-| Scratch Data Types | Mo Aug 25, 2025 |
-| Scratch Cat Jumps  | We Aug 27, 2025 |
+| Assignment                                                                                                         | Due             |
+| :----------------------------------------------------------------------------------------------------------------- | :-------------- |
+| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf) | Mo Aug 25, 2025 |
+| [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)   | We Aug 27, 2025 |
 
 ## Quizzes
 
