@@ -6,10 +6,10 @@
 
 | Assignment                                                                                                                              | Due             |
 | :-------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
-| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf)                      | Mo Aug 25, 2025 |
-| [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)                        | We Aug 27, 2025 |
-| [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Tu Sep 2, 2025  |
-| [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Tu Sep 4, 2025  |
+| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf)                      | We Aug 27, 2025 |
+| [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)                        | Tu Sep 2, 2025  |
+| [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Fr Sep 5, 2025  |
+| [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | TBD             |
 | [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | TBD             |
 
 ## Quizzes
@@ -17,8 +17,8 @@
 | Assignment                          | Due             |
 | :---------------------------------- | :-------------- |
 | Syllabus Quiz                       | Tu Aug 26, 2025 |
-| Scratch Data Types and Control Flow | Fr Aug 29, 2025 |
-| Scratch Collections and Functions   | Fr Sep 5, 2025  |
+| Scratch Data Types and Control Flow | We Sep 3, 2025  |
+| Scratch Collections and Functions   | TBD             |
 
 ## Log
 
@@ -32,30 +32,31 @@ Details for future classes are tentative.
 
 ### Week 1: Aug 25 - Aug 29
 
-- Mo Aug 25: finish Scratch Data Types assignment
+- Mo Aug 25: continue Scratch Data Types assignment
 - Tu Aug 26:
   - syllabus quiz
-  - control flow (conditionals, loops) in Scratch
+  - introduce control flow (conditionals, loops) in Scratch
 - We Aug 27:
-  - more control flow in Scratch
-  - due: Scratch Cat Jumps assignment
+  - due: Scratch Data Types
+  - assign: Scratch Cat Jumps
 - Th Aug 28: no class (floater 5)
 - Fr Aug 29:
-  - quiz: data types and control flow
-  - Scratch lists (collections)
-
+  - continue working on control flow, Scratch Cat Jumps
+    
 ### Week 2: Sep 01 - Sep 05
 
 - Mo Sep 1: no class (Labor Day)
 - Tu Sep 2:
-  - due: Scratch Cat Repeats Backwards assignment
-- We Sep 3: Scratch functions (custom blocks)
+  - due: Scratch Cat Jumps assignment
+  - review for quiz
+- We Sep 3:
+  - quiz: data types and control flow
+  - introduce collections in Scratch
 - Th Sep 4:
-  - more Scratch functions
-  - due: Scratch Cat Walks and Counts assignment
+  - more collections in Scratch
+  - assign Scratch Cat Repeats Backwards
 - Fr Sep 5:
-  - quiz: collections and functions
-  - introduce Scratch Cat Race project
+  - due: Scratch Cat Repeats Backwards
 
 ### Week 3: Sep 08 - Sep 12
 
