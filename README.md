@@ -17,7 +17,7 @@
 | Assignment                          | Due             |
 | :---------------------------------- | :-------------- |
 | Syllabus Quiz                       | Tu Aug 26, 2025 |
-| Scratch Data Types and Control Flow | We Sep 3, 2025  |
+| Scratch Data Types and Control Flow | Fr Sep 5, 2025  |
 | Scratch Collections and Functions   | TBD             |
 
 ## Log
@@ -50,13 +50,12 @@ Details for future classes are tentative.
   - due: Scratch Cat Jumps assignment
   - review for quiz
 - We Sep 3:
-  - quiz: data types and control flow
   - introduce collections in Scratch
 - Th Sep 4:
   - more collections in Scratch
   - assign Scratch Cat Repeats Backwards
 - Fr Sep 5:
-  - due: Scratch Cat Repeats Backwards
+  - quiz: data types and control flow
 
 ### Week 3: Sep 08 - Sep 12
 
