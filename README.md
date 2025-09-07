@@ -8,8 +8,8 @@
 | :-------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
 | [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf)                      | We Aug 27, 2025 |
 | [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)                        | Tu Sep 2, 2025  |
-| [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Fr Sep 5, 2025  |
-| [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | TBD             |
+| [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Th Sep 11, 2025 |
+| [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Th Sep 11, 2025 |
 | [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | TBD             |
 
 ## Quizzes
@@ -18,7 +18,7 @@
 | :---------------------------------- | :-------------- |
 | Syllabus Quiz                       | Tu Aug 26, 2025 |
 | Scratch Data Types and Control Flow | Fr Sep 5, 2025  |
-| Scratch Collections and Functions   | TBD             |
+| Scratch Collections and Functions   | Fr Sep 12, 2025 |
 
 ## Log
 
@@ -42,7 +42,7 @@ Details for future classes are tentative.
 - Th Aug 28: no class (floater 5)
 - Fr Aug 29:
   - continue working on control flow, Scratch Cat Jumps
-    
+
 ### Week 2: Sep 01 - Sep 05
 
 - Mo Sep 1: no class (Labor Day)
@@ -60,18 +60,26 @@ Details for future classes are tentative.
 ### Week 3: Sep 08 - Sep 12
 
 - Mo Sep 8:
+  - introduce functions in Scratch (custom blocks)
+  - assign: Scratch Cat Walks & Counts
 - Tu Sep 9:
+  - review data types & flow control quiz
+  - catch up day -- work on any outstanding assignments
 - We Sep 10: no class (floater 5)
 - Th Sep 11:
+  - due: Scratch Cat Repeats Backwards
+  - due: Scratch Cat Walks & Counts
 - Fr Sep 12:
+  - quiz: collections and functions
 
 ### Week 4: Sep 15 - Sep 19
 
 - Mo Sep 15:
+  - introduce project: Scratch Cat Races
 - Tu Sep 16:
 - We Sep 17:
 - Th Sep 18:
-- Fr Sep 19:
+- Fr Sep 19: no class (Hall Fest)
 
 ### Week 5: Sep 22 - Sep 26
 
