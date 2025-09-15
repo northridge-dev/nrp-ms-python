@@ -18,7 +18,7 @@
 | :---------------------------------- | :-------------- |
 | Syllabus Quiz                       | Tu Aug 26, 2025 |
 | Scratch Data Types and Control Flow | Fr Sep 5, 2025  |
-| Scratch Collections and Functions   | Fr Sep 12, 2025 |
+| Scratch Collections and Functions   | Tu Sep 16, 2025 |
 
 ## Log
 
@@ -75,10 +75,18 @@ Details for future classes are tentative.
 ### Week 4: Sep 15 - Sep 19
 
 - Mo Sep 15:
-  - introduce project: Scratch Cat Races
+  - finish overdue Scratch assignments
+  - if finished, extra credit: Scratch Cat Maze
+    - [maze 1](https://inventwithscratch.com/mazes/maze1.png)
+    - [maze 2](https://inventwithscratch.com/mazes/maze2.png)
+    - [maze 3](https://inventwithscratch.com/mazes/maze3.png)
+    - to earn extra credit, summarize your progress and explain _in reasonable detail_ how your code works
 - Tu Sep 16:
+  - quiz: collections and functions
 - We Sep 17:
+  - introduce project: Scratch Cat Races
 - Th Sep 18:
+  - work on Scratch Cat Races
 - Fr Sep 19: no class (Hall Fest)
 
 ### Week 5: Sep 22 - Sep 26
