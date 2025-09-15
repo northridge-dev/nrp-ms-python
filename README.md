@@ -67,10 +67,10 @@ Details for future classes are tentative.
   - catch up day -- work on any outstanding assignments
 - We Sep 10: no class (floater 5)
 - Th Sep 11:
+  - work on Scratch exercises
+- Fr Sep 12:
   - due: Scratch Cat Repeats Backwards
   - due: Scratch Cat Walks & Counts
-- Fr Sep 12:
-  - quiz: collections and functions
 
 ### Week 4: Sep 15 - Sep 19
 
