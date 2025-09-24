@@ -10,7 +10,7 @@
 | [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)                        | Tu Sep 2, 2025  |
 | [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Th Sep 11, 2025 |
 | [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Th Sep 11, 2025 |
-| [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | TBD             |
+| [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | We Sep 24, 2025 |
 
 ## Quizzes
 
@@ -18,7 +18,7 @@
 | :---------------------------------- | :-------------- |
 | Syllabus Quiz                       | Tu Aug 26, 2025 |
 | Scratch Data Types and Control Flow | Fr Sep 5, 2025  |
-| Scratch Collections and Functions   | Tu Sep 16, 2025 |
+| Scratch Collections and Functions   | Th Sep 25, 2025 |
 
 ## Log
 
@@ -90,6 +90,15 @@ Details for future classes are tentative.
 - Fr Sep 19: no class (Hall Fest)
 
 ### Week 5: Sep 22 - Sep 26
+
+- Mo Sep 22: no class (MS standardized testing)
+- Tu Sep 23: no class (floater 5)
+- We Sep 24:
+  - due: Scratch Cat Races
+- Th Sep 25:
+  - quiz: collections and functions (retake)
+- Fr Sep 26:
+  - introducing Python
 
 ### Week 6: Sep 29 - Oct 3
 
