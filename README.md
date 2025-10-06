@@ -102,6 +102,14 @@ Details for future classes are tentative.
 
 ### Week 6: Sep 29 - Oct 3
 
+- Mo Sep 29: in-class exercises: variables
+- Tu Sep 30: tangential discussion about programming languages
+- We Oct 1: in-class exercise: iterating through lists
+- Th Oct 2: in-class exercise:
+  - range --> list
+  - iterating through lists
+- Fr Oct 3: no class (floater 5)
+
 ### Week 7: Oct 6 - Oct 10
 
 - Fr Oct 10: no class (Columbus Day break)
