@@ -112,6 +112,12 @@ Details for future classes are tentative.
 
 ### Week 7: Oct 6 - Oct 10
 
+- Mo Oct 6: in-class challenges: functions
+- Tu Oct 7: continue functions challenges
+  - handout: Python functions
+  - due: function challenges worksheet
+- We Oct 8: review, extra credit opportunity
+- Th Oct 9: quiz: Python variables, lists, & functions
 - Fr Oct 10: no class (Columbus Day break)
 
 ### Week 8: Oct 13 - Oct 17
