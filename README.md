@@ -12,6 +12,8 @@
 | [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Th Sep 11, 2025 |
 | [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | We Sep 24, 2025 |
 
+| Python Functions Challenge | Tu Oct 7, 2025 |
+
 ## Quizzes
 
 | Assignment                          | Due             |
@@ -117,7 +119,7 @@ Details for future classes are tentative.
   - handout: Python functions
   - due: function challenges worksheet
 - We Oct 8: review, extra credit opportunity
-- Th Oct 9: quiz: Python variables, lists, & functions
+- Th Oct 9: 8th grade trip -- no new material
 - Fr Oct 10: no class (Columbus Day break)
 
 ### Week 8: Oct 13 - Oct 17
