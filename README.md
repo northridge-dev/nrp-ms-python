@@ -11,16 +11,19 @@
 | [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Th Sep 11, 2025 |
 | [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Th Sep 11, 2025 |
 | [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | We Sep 24, 2025 |
+| ...                                                                                                                                     | ...             |
+| [Code Exploration: `factorfinder`](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/factorfinder.pdf)              | Th Oct 16, 2025 |
 
 | Python Functions Challenge | Tu Oct 7, 2025 |
 
 ## Quizzes
 
-| Assignment                          | Due             |
-| :---------------------------------- | :-------------- |
-| Syllabus Quiz                       | Tu Aug 26, 2025 |
-| Scratch Data Types and Control Flow | Fr Sep 5, 2025  |
-| Scratch Collections and Functions   | Th Sep 25, 2025 |
+| Assignment                             | Due             |
+| :------------------------------------- | :-------------- |
+| Syllabus Quiz                          | Tu Aug 26, 2025 |
+| Scratch Data Types and Control Flow    | Fr Sep 5, 2025  |
+| Scratch Collections and Functions      | Th Sep 25, 2025 |
+| Python Variables, Lists, and Functions | We Oct 15, 2025 |
 
 ## Log
 
@@ -125,6 +128,11 @@ Details for future classes are tentative.
 ### Week 8: Oct 13 - Oct 17
 
 - Mo Oct 13: no class (Columbus Day break)
+- Tu Oct 14: review, Python basics study guide
+- We Oct 15:
+  - quiz: Python variables, lists, & functions
+- Th Oct 16: code exploration: factorfinder
+- Fr Oct 17: no class (floater 5)
 
 ### Week 9: Oct 20 - Oct 24
 
