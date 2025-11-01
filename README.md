@@ -148,6 +148,12 @@ Details for future classes are tentative.
 
 ### Week 10: Oct 27 - Oct 31
 
+- Mo Oct 27: self-assessment: writing functions
+- Tu Oct 28: `factorfinder` exercise
+- We Oct 29: no class (floater 5)
+- Th Oct 30: conditionals; number guessing game
+- Fr Oct 31: extend number guessing game (multi-game)
+
 ### Week 11: Nov 3 - Nov 7
 
 ### Week 12: Nov 10 - Nov 14
