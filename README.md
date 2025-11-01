@@ -136,6 +136,16 @@ Details for future classes are tentative.
 
 ### Week 9: Oct 20 - Oct 24
 
+- Mo Oct 20: (short class - late start)
+  - hand back, review Python basics test
+  - play act functions, calling functions
+- Tu Oct 21:
+  - more practice defining functions
+- We Oct 22:
+  - finish `factorfinder` code exploration
+- Th Oct 23: Python basics quiz retake
+- Fr Oct 24: 7th grade trip; free day
+
 ### Week 10: Oct 27 - Oct 31
 
 ### Week 11: Nov 3 - Nov 7
