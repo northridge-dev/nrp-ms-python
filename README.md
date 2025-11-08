@@ -163,6 +163,11 @@ Details for future classes are tentative.
 - Fr Nov 7: math quiz: operations module
 ### Week 12: Nov 10 - Nov 14
 
+- Mo Nov 10: no class (floater 5)
+- Tu Nov 11: math quiz: randomly choose operation
+- We Nov 12: math quiz: multiplayer
+- Th Nov 13: math quiz: multiplayer
+- Fr Nov 14: math quiz tournament
 ### Week 13: Nov 17 - Nov 21
 
 ### Week 14: Nov 24 - Nov 28
