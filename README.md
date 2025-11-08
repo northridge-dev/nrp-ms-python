@@ -156,6 +156,11 @@ Details for future classes are tentative.
 
 ### Week 11: Nov 3 - Nov 7
 
+- Mo Nov 3: number guessing game
+- Tu Nov 4: number guessing game
+- We Nov 5: addition quiz game
+- Th Nov 6: addition quiz game
+- Fr Nov 7: math quiz: operations module
 ### Week 12: Nov 10 - Nov 14
 
 ### Week 13: Nov 17 - Nov 21
