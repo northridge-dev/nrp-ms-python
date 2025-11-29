@@ -186,11 +186,13 @@ Details for future classes are tentative.
 
 ### Week 15: Dec 1 - Dec 5
 
-- Mo Dec 1:
-- Tu Dec 2:
+- Mo Dec 1: Digital Stream
+- Tu Dec 2: Digital Stream
 - We Dec 3:
-- Th Dec 4:
-- Fr Dec 5:
+  - Quiz: Digital Stream
+  - Black Jack - planning
+- Th Dec 4: Black Jack - displaying a hand
+- Fr Dec 5: no class (floater 5)
 
 ### Week 16: Dec 8 - Dec 12
 
