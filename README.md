@@ -156,29 +156,49 @@ Details for future classes are tentative.
 
 ### Week 11: Nov 3 - Nov 7
 
-- Mo Nov 3: number guessing game
-- Tu Nov 4: number guessing game
-- We Nov 5: addition quiz game
-- Th Nov 6: addition quiz game
-- Fr Nov 7: math quiz: operations module
+- Mo Nov 3: ?
+- Tu Nov 4: ?
+- We Nov 5: ?
+- Th Nov 6: ?
+- Fr Nov 7: ?
+
 ### Week 12: Nov 10 - Nov 14
 
 - Mo Nov 10: no class (floater 5)
-- Tu Nov 11: math quiz: randomly choose operation
-- We Nov 12: math quiz: multiplayer
-- Th Nov 13: math quiz: multiplayer
-- Fr Nov 14: math quiz tournament
+- Tu Nov 11: ?
+- We Nov 12: ?
+- Th Nov 13: ?
+- Fr Nov 14: ?
+
 ### Week 13: Nov 17 - Nov 21
+
+- Mo Nov 17: Math Quiz game
+- Tu Nov 18: Math Quiz tournament
+- We Nov 19: Math Quiz tournament
+- Th Nov 20: no class (floater 5)
+- Fr Nov 21: Math Quiz tournament
 
 ### Week 14: Nov 24 - Nov 28
 
-- Mo Nov 24
-- Tu Nov 25
+- Mo Nov 24: Math Quiz tournament
+- Tu Nov 25: Math Quiz tournament
 - We Nov 26 - Fr Nov 30: no class (Thanksgiving break)
 
 ### Week 15: Dec 1 - Dec 5
 
+- Mo Dec 1:
+- Tu Dec 2:
+- We Dec 3:
+- Th Dec 4:
+- Fr Dec 5:
+
 ### Week 16: Dec 8 - Dec 12
+
+- Mo Dec 8:
+- Tu Dec 9:
+- We Dec 10:
+- Th Dec 11:
+- Fr Dec 12:
 
 ### Week 17: Dec 15 - Dec 19
 
