@@ -196,11 +196,16 @@ Details for future classes are tentative.
 
 ### Week 16: Dec 8 - Dec 12
 
-- Mo Dec 8:
-- Tu Dec 9:
-- We Dec 10:
-- Th Dec 11:
-- Fr Dec 12:
+- Mo Dec 8: Black Jack
+  - calculating hand value
+- Tu Dec 9: Black Jack
+  - display hands
+- We Dec 10: Black Jack
+  - prompt for bet, move
+- Th Dec 11: Black Jack
+  - game loop
+- Fr Dec 12: Black Jack
+  - game loop
 
 ### Week 17: Dec 15 - Dec 19
 
