@@ -1,214 +1,181 @@
-# MS Python @ Northridge Prep - Fall 2025
+# MS Python @ Northridge Prep - Spring 2026
 
 [syllabus]()
 
 ## In-class Assignments
 
-| Assignment                                                                                                                              | Due             |
-| :-------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
-| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf)                      | We Aug 27, 2025 |
-| [Scratch Cat Jumps](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Jumps.pdf)                        | Tu Sep 2, 2025  |
-| [Scratch Cat Repeats Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Repeat_Backwards.pdf) | Th Sep 11, 2025 |
-| [Scratch Cat Walks & Counts](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Walks_Counts.pdf)        | Th Sep 11, 2025 |
-| [Project: Scratch Cat Race](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Cat_Race.pdf)                 | We Sep 24, 2025 |
-| ...                                                                                                                                     | ...             |
-| [Code Exploration: `factorfinder`](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/factorfinder.pdf)              | Th Oct 16, 2025 |
-
-| Python Functions Challenge | Tu Oct 7, 2025 |
+| Assignment                                                                                                         | Due |
+| :----------------------------------------------------------------------------------------------------------------- | :-- |
+| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf) | TBD |
 
 ## Quizzes
 
-| Assignment                             | Due             |
-| :------------------------------------- | :-------------- |
-| Syllabus Quiz                          | Tu Aug 26, 2025 |
-| Scratch Data Types and Control Flow    | Fr Sep 5, 2025  |
-| Scratch Collections and Functions      | Th Sep 25, 2025 |
-| Python Variables, Lists, and Functions | We Oct 15, 2025 |
+| Assignment    | Due            |
+| :------------ | :------------- |
+| Syllabus Quiz | We Jan 7, 2026 |
 
 ## Log
 
 Details for future classes are tentative.
 
-### Week 0: Aug 21 - Aug 22
+### Week Spring.01: Jan 05 - Jan 09
 
-- Th Aug 21: syllabus, introductions
-- Fr Aug 22: programming basics in Scratch: data types
-  - exercise: Scratch Data Types
+- Mo Jan 05: no class (Christmas break)
+- Tu Jan 06 (1):
+- We Jan 07 (2):
+- Th Jan 08 (3):
+- Fr Jan 09 (4):
 
-### Week 1: Aug 25 - Aug 29
+### Week Spring.02: Jan 12 - Jan 16
 
-- Mo Aug 25: continue Scratch Data Types assignment
-- Tu Aug 26:
-  - syllabus quiz
-  - introduce control flow (conditionals, loops) in Scratch
-- We Aug 27:
-  - due: Scratch Data Types
-  - assign: Scratch Cat Jumps
-- Th Aug 28: no class (floater 5)
-- Fr Aug 29:
-  - continue working on control flow, Scratch Cat Jumps
+- Mo Jan 12 (5):
+- Tu Jan 13: no class (floater 5)
+- We Jan 14 (6):
+- Th Jan 15 (7):
+- Fr Jan 16 (8):
 
-### Week 2: Sep 01 - Sep 05
+### Week Spring.03: Jan 19 - Jan 23
 
-- Mo Sep 1: no class (Labor Day)
-- Tu Sep 2:
-  - due: Scratch Cat Jumps assignment
-  - review for quiz
-- We Sep 3:
-  - introduce collections in Scratch
-- Th Sep 4:
-  - more collections in Scratch
-  - assign Scratch Cat Repeats Backwards
-- Fr Sep 5:
-  - quiz: data types and control flow
+- Mo Jan 19: no class (Martin Luther King, Jr. Day)
+- Tu Jan 20 (9):
+- We Jan 21 (10):
+- Th Jan 22 (11):
+- Fr Jan 23 (12):
 
-### Week 3: Sep 08 - Sep 12
+### Week Spring.04: Jan 26 - Jan 30
 
-- Mo Sep 8:
-  - introduce functions in Scratch (custom blocks)
-  - assign: Scratch Cat Walks & Counts
-- Tu Sep 9:
-  - review data types & flow control quiz
-  - catch up day -- work on any outstanding assignments
-- We Sep 10: no class (floater 5)
-- Th Sep 11:
-  - work on Scratch exercises
-- Fr Sep 12:
-  - due: Scratch Cat Repeats Backwards
-  - due: Scratch Cat Walks & Counts
+- Mo Jan 26: no class (floater 5)
+- Tu Jan 27 (13):
+- We Jan 28 (14):
+- Th Jan 29 (15):
+- Fr Jan 30: no class (Hall Fest)
 
-### Week 4: Sep 15 - Sep 19
+### Week Spring.05: Feb 02 - Feb 06
 
-- Mo Sep 15:
-  - finish overdue Scratch assignments
-  - if finished, extra credit: Scratch Cat Maze
-    - [maze 1](https://inventwithscratch.com/mazes/maze1.png)
-    - [maze 2](https://inventwithscratch.com/mazes/maze2.png)
-    - [maze 3](https://inventwithscratch.com/mazes/maze3.png)
-    - to earn extra credit, summarize your progress and explain _in reasonable detail_ how your code works
-- Tu Sep 16:
-  - quiz: collections and functions
-- We Sep 17:
-  - introduce project: Scratch Cat Races
-- Th Sep 18:
-  - work on Scratch Cat Races
-- Fr Sep 19: no class (Hall Fest)
+- Mo Feb 02 (16):
+- Tu Feb 03 (17):
+- We Feb 04 (18):
+- Th Feb 05 (19):
+- Fr Feb 06: no class (floater 5)
 
-### Week 5: Sep 22 - Sep 26
+### Week Spring.06: Feb 09 - Feb 13
 
-- Mo Sep 22: no class (MS standardized testing)
-- Tu Sep 23: no class (floater 5)
-- We Sep 24:
-  - due: Scratch Cat Races
-- Th Sep 25:
-  - quiz: collections and functions (retake)
-- Fr Sep 26:
-  - introducing Python
+- Mo Feb 09 (20):
+- Tu Feb 10 (21):
+- We Feb 11 (22):
+- Th Feb 12 (23):
+- Fr Feb 13: no class (Presidents Day break)
 
-### Week 6: Sep 29 - Oct 3
+### Week Spring.07: Feb 16 - Feb 20
 
-- Mo Sep 29: in-class exercises: variables
-- Tu Sep 30: tangential discussion about programming languages
-- We Oct 1: in-class exercise: iterating through lists
-- Th Oct 2: in-class exercise:
-  - range --> list
-  - iterating through lists
-- Fr Oct 3: no class (floater 5)
+- Mo Feb 16: no class (Presidents Day break)
+- Tu Feb 17 (24):
+- We Feb 18 (25):
+- Th Feb 19 (26):
+- Fr Feb 20: no class (floater 5)
 
-### Week 7: Oct 6 - Oct 10
+### Week Spring.08: Feb 23 - Feb 27
 
-- Mo Oct 6: in-class challenges: functions
-- Tu Oct 7: continue functions challenges
-  - handout: Python functions
-  - due: function challenges worksheet
-- We Oct 8: review, extra credit opportunity
-- Th Oct 9: 8th grade trip -- no new material
-- Fr Oct 10: no class (Columbus Day break)
+- Mo Feb 23 (27):
+- Tu Feb 24 (28):
+- We Feb 25 (29):
+- Th Feb 26 (30):
+- Fr Feb 27 (31):
 
-### Week 8: Oct 13 - Oct 17
+### Week Spring.09: Mar 02 - Mar 06
 
-- Mo Oct 13: no class (Columbus Day break)
-- Tu Oct 14: review, Python basics study guide
-- We Oct 15:
-  - quiz: Python variables, lists, & functions
-- Th Oct 16: code exploration: factorfinder
-- Fr Oct 17: no class (floater 5)
+- Mo Mar 02 (32):
+- Tu Mar 03 (33):
+- We Mar 04: no class (floater 5)
+- Th Mar 05 (34):
+- Fr Mar 06 (35):
 
-### Week 9: Oct 20 - Oct 24
+### Week Spring.10: Mar 09 - Mar 13
 
-- Mo Oct 20: (short class - late start)
-  - hand back, review Python basics test
-  - play act functions, calling functions
-- Tu Oct 21:
-  - more practice defining functions
-- We Oct 22:
-  - finish `factorfinder` code exploration
-- Th Oct 23: Python basics quiz retake
-- Fr Oct 24: 7th grade trip; free day
+- Mo Mar 09 (36):
+- Tu Mar 10 (37): (quarter 3 ends)
+- We Mar 11: no class (Mother-Son Luncheon)
+- Th Mar 12 (38):
+- Fr Mar 13 (39):
 
-### Week 10: Oct 27 - Oct 31
+### Week Spring.11: Mar 16 - Mar 20
 
-- Mo Oct 27: self-assessment: writing functions
-- Tu Oct 28: `factorfinder` exercise
-- We Oct 29: no class (floater 5)
-- Th Oct 30: conditionals; number guessing game
-- Fr Oct 31: extend number guessing game (multi-game)
+- Mo Mar 16: no class (floater 5)
+- Tu Mar 17 (40):
+- We Mar 18 (41):
+- Th Mar 19 (42):
+- Fr Mar 20 (43):
 
-### Week 11: Nov 3 - Nov 7
+### Week Spring.12: Mar 23 - Mar 27
 
-- Mo Nov 3: ?
-- Tu Nov 4: ?
-- We Nov 5: ?
-- Th Nov 6: ?
-- Fr Nov 7: ?
+- Mo Mar 23 (44):
+- Tu Mar 24 (45):
+- We Mar 25 (46):
+- Th Mar 26: no class (floater 5)
+- Fr Mar 27 (47):
 
-### Week 12: Nov 10 - Nov 14
+### Week Spring.13: Mar 30 - Apr 03
 
-- Mo Nov 10: no class (floater 5)
-- Tu Nov 11: ?
-- We Nov 12: ?
-- Th Nov 13: ?
-- Fr Nov 14: ?
+- Mo Mar 30 (48):
+- Tu Mar 31 (49):
+- We Apr 01 (50):
+- Th Apr 02: no class (Holy Thursday)
+- Fr Apr 03: no class (Good Friday)
 
-### Week 13: Nov 17 - Nov 21
+### Week Spring.14: Apr 06 - Apr 10
 
-- Mo Nov 17: Math Quiz game
-- Tu Nov 18: Math Quiz tournament
-- We Nov 19: Math Quiz tournament
-- Th Nov 20: no class (floater 5)
-- Fr Nov 21: Math Quiz tournament
+- no class (Holy Week / Spring Break)
 
-### Week 14: Nov 24 - Nov 28
+### Week Spring.15: Apr 13 - Apr 17
 
-- Mo Nov 24: Math Quiz tournament
-- Tu Nov 25: Math Quiz tournament
-- We Nov 26 - Fr Nov 30: no class (Thanksgiving break)
+- Mo Apr 13 (51):
+- Tu Apr 14 (52):
+- We Apr 15 (53):
+- Th Apr 16: no class (floater 5)
+- Fr Apr 17 (54):
 
-### Week 15: Dec 1 - Dec 5
+### Week Spring.16: Apr 20 - Apr 24
 
-- Mo Dec 1: Digital Stream
-- Tu Dec 2: Digital Stream
-- We Dec 3:
-  - Quiz: Digital Stream
-  - Black Jack - planning
-- Th Dec 4: Black Jack - displaying a hand
-- Fr Dec 5: no class (floater 5)
+- Mo Apr 20 (55):
+- Tu Apr 21 (56):
+- We Apr 22 (57):
+- Th Apr 23 (58):
+- Fr Apr 24: no class (faculty in-service)
 
-### Week 16: Dec 8 - Dec 12
+### Week Spring.17: Apr 27 - May 01
 
-- Mo Dec 8: Black Jack
-  - calculating hand value
-- Tu Dec 9: Black Jack
-  - display hands
-- We Dec 10: Black Jack
-  - prompt for bet, move
-- Th Dec 11: Black Jack
-  - game loop
-- Fr Dec 12: Black Jack
-  - game loop
+- Mo Apr 27 (59):
+- Tu Apr 28 (60):
+- We Apr 29: no class (floater 5)
+- Th Apr 30 (61):
+- Fr May 01: no class (Hall Fest)
 
-### Week 17: Dec 15 - Dec 19
+### Week Spring.18: May 04 - May 08
 
-- Mo Dec 15:
-- Tu Dec 16:
-- We Dec 17 - Fr Dec 19: no class (finals)
+- Mo May 04 (62):
+- Tu May 05 (63):
+- We May 06 (64):
+- Th May 07 (65):
+- Fr May 08 (66):
+
+### Week Spring.19: May 11 - May 15
+
+- Mo May 11 (67):
+- Tu May 12: no class (floater 5)
+- We May 13 (68):
+- Th May 14 (69):
+- Fr May 15 (70):
+
+### Week Spring.20: May 18 - May 22
+
+- Mo May 18 (71):
+- Tu May 19 (72):
+- We May 20 (73):
+- Th May 21 (74):
+- Fr May 22: no class (floater 5)
+
+### Week Spring.21: May 24 - May 28
+
+- Mo May 24: no class (Memorial Day)
+- Tu May 25 (76): (last day of class)
+- We May 25 - Fr May 28: no class (finals)
