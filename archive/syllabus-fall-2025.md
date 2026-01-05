@@ -2,12 +2,12 @@
 
 ## **Course Details**
 
-[Northridge Prep](https://northridgeprep.org/), Fall 2026  
+[Northridge Prep](https://northridgeprep.org/), Fall 2025  
 Dr. Nicholas Kruckenberg (nkruckenberg@northridgeprep.org)
 
 ## **Course Description**
 
-Introduces students to foundational computer programming concepts and computational thinking practices by completing coding exercises and small projects in Scratch and Python.
+Introduces students to foundational computer programming concepts and computational thinking practices by completing coding exercises and small projects in Python.
 
 Example projects:
 
@@ -19,6 +19,8 @@ Example projects:
 - Blackjack
 - Etch-a-Sketch
 - The Great Snail Race
+- Pong
+- text-based RPG
 - Battleship
 
 ## **Goals**
@@ -42,7 +44,7 @@ Put another way, by the end of the course, you should be able to:
 
 Grades will be assigned according to the Northridge grading scale and comprised of the following equally-weighted components:
 
-1. virtues: self-control, diligence, perseverance, and organization (daily)
+1. self-control, diligence, perseverance, and organization (daily)
    - comes to class on time and prepared
    - works steadily and stays focused
    - shows perseverance and resourcefulness when facing problems
@@ -70,8 +72,6 @@ It is your responsibility to:
 - pen or pencil
 - web resources:
   - [Northridge Dev](https://northridge.dev/): [https://northridge.dev](https://northridge.dev/)
-  - [srccod](https://srccod.northridge.dev): [https://srccod.northridge.dev](https://srccod.northridge.dev)
-  - [Scratch](https://scratch.mit.edu): [https://scratch.mit.edu](https://scratch.mit.edu)
   - [GitHub](https://github.com/): [https://github.com](https://github.com)
 
 ## **Responsible Use of Technology**
