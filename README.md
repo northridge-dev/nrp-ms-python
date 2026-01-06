@@ -1,12 +1,12 @@
 # MS Python @ Northridge Prep - Spring 2026
 
-[syllabus]()
+[syllabus](https://github.com/northridge-dev/nrp-ms-python/blob/main/syllabus.md)
 
 ## In-class Assignments
 
-| Assignment                                                                                                         | Due |
-| :----------------------------------------------------------------------------------------------------------------- | :-- |
-| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf) | TBD |
+| Assignment                                                                                                         | Due       |
+| :----------------------------------------------------------------------------------------------------------------- | :-------- |
+| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf) | Th Jan 08 |
 
 ## Quizzes
 
@@ -22,9 +22,13 @@ Details for future classes are tentative.
 
 - Mo Jan 05: no class (Christmas break)
 - Tu Jan 06 (1):
+  - review syllabus
+  - first programs in Scratch & Python
 - We Jan 07 (2):
-- Th Jan 08 (3):
-- Fr Jan 09 (4):
+  - syllabus quiz
+  - Scratch data types
+- Th Jan 08 (3): Scratch data types (worksheet due)
+- Fr Jan 09 (4): start Scratch Cat jumps
 
 ### Week Spring.02: Jan 12 - Jan 16
 
