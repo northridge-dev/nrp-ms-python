@@ -74,8 +74,8 @@ Details for future classes are tentative.
 
 - Mo Feb 16: no class (Presidents Day break)
 - Tu Feb 17 (24):
-- We Feb 18 (25):
-- Th Feb 19 (26):
+- We Feb 18 (25): Converting Scratch Repeats Backwards to Python
+- Th Feb 19 (26): Python lists and ranges (two worksheets)
 - Fr Feb 20: no class (floater 5)
 
 ### Week Spring.08: Feb 23 - Feb 27
