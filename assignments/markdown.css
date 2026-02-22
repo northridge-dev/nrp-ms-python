@@ -1,0 +1,17 @@
+body, code, pre {
+    font-size: 11px;
+}
+
+p {
+    margin: 0 0 6px 0;
+}
+
+pre:not(.hljs), pre.hljs code > div {
+    padding: 1px;
+}
+
+pre {
+    padding: 4px 8px;    /* Top/Bottom 4px, Left/Right 8px */
+    margin-top: 5px;     /* Optional: space between paragraph and code box */
+    margin-bottom: 5px;
+}
