@@ -4,15 +4,21 @@
 
 ## In-class Assignments
 
-| Assignment                                                                                                         | Due       |
-| :----------------------------------------------------------------------------------------------------------------- | :-------- |
-| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf) | Th Jan 08 |
+| Assignment                                                                                                                           | Due       |
+| :----------------------------------------------------------------------------------------------------------------------------------- | :-------- |
+| [Scratch Data Types](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/Scratch_Data_Types.pdf)                   | Th Jan 08 |
+| [Python Lists 1](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/py_lists_1.pdf)                               | Mo Feb 23 |
+| [Python Lists 2](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/py_lists_2.pdf)                               | Mo Feb 23 |
+| [Python Repeat Backwards](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/py_repeat_backwards.pdf)             | We Feb 25 |
+| [Python Repeat Backwards Bonus](https://github.com/northridge-dev/nrp-ms-python/blob/main/assignments/py_repeat_backwards_BONUS.pdf) | We Feb 25 |
 
 ## Quizzes
 
-| Assignment    | Due            |
-| :------------ | :------------- |
-| Syllabus Quiz | We Jan 7, 2026 |
+| Assignment                   | Due             |
+| :--------------------------- | :-------------- |
+| Syllabus Quiz                | We Jan 7, 2026  |
+| ...                          | ...             |
+| Python Lists and Ranges Quiz | Tu Feb 24, 2026 |
 
 ## Log
 
@@ -80,11 +86,15 @@ Details for future classes are tentative.
 
 ### Week Spring.08: Feb 23 - Feb 27
 
-- Mo Feb 23 (27):
+- Mo Feb 23 (27): Python lists and ranges -- **worksheets due**
 - Tu Feb 24 (28):
+  - **Quiz: Python lists and ranges**
+  - Start: Python Repeat Backwards worksheet
 - We Feb 25 (29):
-- Th Feb 26 (30):
-- Fr Feb 27 (31):
+  - **Python Repeat Backwards worksheet due**
+  - BONUS exercise if finished early
+- Th Feb 26 (30): Start Python Guessing Game
+- Fr Feb 27 (31): 8th Grade Pre-Confirmation Retreat (no class)
 
 ### Week Spring.09: Mar 02 - Mar 06
 
