@@ -86,19 +86,19 @@ Details for future classes are tentative.
 
 ### Week Spring.08: Feb 23 - Feb 27
 
-- Mo Feb 23 (27): Python lists and ranges -- **worksheets due**
-- Tu Feb 24 (28):
+- Mo Feb 23 (27): Python lists 1 and 2
+- Tu Feb 24 (28): Python lists 1 and 2 -- **worksheets due**
+- We Feb 25 (29):
   - **Quiz: Python lists and ranges**
   - Start: Python Repeat Backwards worksheet
-- We Feb 25 (29):
+- Th Feb 26 (30):
   - **Python Repeat Backwards worksheet due**
   - BONUS exercise if finished early
-- Th Feb 26 (30): Start Python Guessing Game
 - Fr Feb 27 (31): 8th Grade Pre-Confirmation Retreat (no class)
 
 ### Week Spring.09: Mar 02 - Mar 06
 
-- Mo Mar 02 (32):
+- Mo Mar 02 (32): Start Python Guessing Game
 - Tu Mar 03 (33):
 - We Mar 04: no class (floater 5)
 - Th Mar 05 (34):
