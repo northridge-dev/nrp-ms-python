@@ -89,20 +89,27 @@ Details for future classes are tentative.
 - Mo Feb 23 (27): Python lists 1 and 2
 - Tu Feb 24 (28): Python lists 1 and 2 -- **worksheets due**
 - We Feb 25 (29):
-  - **Quiz: Python lists and ranges**
+  - **Quiz: Python Lists**
   - Start: Python Repeat Backwards worksheet
 - Th Feb 26 (30):
-  - **Python Repeat Backwards worksheet due**
-  - BONUS exercise if finished early
+  - work on Python Repeat Backwards worksheet
 - Fr Feb 27 (31): 8th Grade Pre-Confirmation Retreat (no class)
 
 ### Week Spring.09: Mar 02 - Mar 06
 
-- Mo Mar 02 (32): Start Python Guessing Game
+- Mo Mar 02 (32):
+  - Review Python lists
+  - **Python Repeat Backwards worksheet due**
+  - BONUS exercise if finished early
 - Tu Mar 03 (33):
+  - **Quiz: Python Lists** retake
+  - start Python Guessing Game
 - We Mar 04: no class (floater 5)
 - Th Mar 05 (34):
+  - **Python Guessing Game due**
+  - introduce Python functions (calculator functions)
 - Fr Mar 06 (35):
+  - Addition Quiz code
 
 ### Week Spring.10: Mar 09 - Mar 13
 
