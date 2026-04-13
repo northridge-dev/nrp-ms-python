@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Latin Translator</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #800000;
+            color: #eee;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { text-align: center; color: #ffd700; }
+        .container {
+            background-color: #5c0000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            background-color: #3d0000;
+            color: #eee;
+            border: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        button {
+            background-color: #ffd700;
+            color: #5c0000;
+            border: none;
+            padding: 12px 24px;
+            font-family: inherit;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        button:hover { background-color: #e6c200; }
+        button.secondary {
+            background-color: #c0c0c0;
+        }
+        button.secondary:hover { background-color: #a0a0a0; }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #3d0000;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+        .result-label {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Igpay Atinlay (Pig Latin)</h1>
+    
+    <div class="container">
+        <p>Enter your message to translate:</p>
+        <textarea id="inputText" rows="3" placeholder="Type here..."></textarea>
+        
+        <br>
+        <button onclick="translateToPigLatin()">Translate</button>
+        <button onclick="showStats()">Show Stats</button>
+        <button onclick="showSteps()" class="secondary">Show Steps</button>
+        <button onclick="clearText()">Clear</button>
+        
+        <div class="result" id="result" style="display: none;">
+            <div class="result-label">Translation:</div>
+            <div id="outputText"></div>
+        </div>
+    </div>
+
+    <script>
+        const VOWELS = ['a', 'e', 'i', 'o', 'u', 'y'];
+
+        function englishToPigLatin(word) {
+            let prefixNonLetters = '';
+            while (word.length > 0 && !isLetter(word[0])) {
+                prefixNonLetters += word[0];
+                word = word.slice(1);
+            }
+            if (word.length === 0) {
+                return prefixNonLetters;
+            }
+
+            let suffixNonLetters = '';
+            while (word.length > 0 && !isLetter(word[word.length - 1])) {
+                suffixNonLetters = word[word.length - 1] + suffixNonLetters;
+                word = word.slice(0, -1);
+            }
+
+            const wasUpper = word === word.toUpperCase();
+            const wasTitle = word === word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            word = word.toLowerCase();
+
+            let prefixConsonants = '';
+            while (word.length > 0 && !VOWELS.includes(word[0])) {
+                prefixConsonants += word[0];
+                word = word.slice(1);
+            }
+
+            if (prefixConsonants !== '') {
+                word += prefixConsonants + 'ay';
+            } else {
+                word += 'yay';
+            }
+
+            if (wasUpper) {
+                word = word.toUpperCase();
+            } else if (wasTitle) {
+                word = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            }
+
+            return prefixNonLetters + word + suffixNonLetters;
+        }
+
+        function isLetter(char) {
+            return char.toLowerCase() >= 'a' && char.toLowerCase() <= 'z';
+        }
+
+        function translateToPigLatin() {
+            const input = document.getElementById('inputText').value;
+            const words = input.split(' ');
+            let result = '';
+            
+            for (let word of words) {
+                result += englishToPigLatin(word) + ' ';
+            }
+            
+            showResult(result.trim());
+        }
+
+        function showStats() {
+            const input = document.getElementById('inputText').value;
+            if (!input.trim()) {
+                showResult("Please enter some text first!");
+                return;
+            }
+            const words = input.split(' ');
+            let total = 0;
+            let vowelStarts = 0;
+            let consonantStarts = 0;
+            
+            for (let word of words) {
+                const cleanWord = word.toLowerCase().replace(/[^a-z]/g, '');
+                if (cleanWord.length > 0) {
+                    total++;
+                    if (VOWELS.includes(cleanWord[0])) {
+                        vowelStarts++;
+                    } else {
+                        consonantStarts++;
+                    }
+                }
+            }
+            
+            const stats = `Translated ${total} word${total !== 1 ? 's' : ''}.
+- ${vowelStarts} started with vowels (added "yay")
+- ${consonantStarts} started with consonants (added "ay")`;
+            
+            showResult(stats);
+        }
+
+        function showSteps() {
+            const input = document.getElementById('inputText').value;
+            if (!input.trim()) {
+                showResult("Please enter some text first!");
+                return;
+            }
+            const words = input.split(' ');
+            let result = '';
+            
+            for (let i = 0; i < words.length; i++) {
+                result += showWordSteps(words[i]);
+                if (i < words.length - 1) {
+                    result += '\n\n';
+                }
+            }
+            
+            showResult(result.trim());
+        }
+
+        function showWordSteps(originalWord) {
+            let result = `Translating "${originalWord}":`;
+            let word = originalWord;
+            
+            result += `\n  1. Original: "${word}"`;
+            
+            while (word.length > 0 && !isLetter(word[0])) {
+                word = word.slice(1);
+            }
+            while (word.length > 0 && !isLetter(word[word.length - 1])) {
+                word = word.slice(0, -1);
+            }
+            
+            if (word.length === 0) {
+                return result + `\n  Result: "${originalWord}" (no letters)`;
+            }
+            
+            const wasUpper = word === word.toUpperCase();
+            const wasTitle = word.charAt(0) === word.charAt(0).toUpperCase() && 
+                             word.slice(1) === word.slice(1).toLowerCase();
+            
+            result += `\n  2. Lowercase: "${word.toLowerCase()}"`;
+            
+            let prefixConsonants = '';
+            let tempWord = word.toLowerCase();
+            while (tempWord.length > 0 && !VOWELS.includes(tempWord[0])) {
+                prefixConsonants += tempWord[0];
+                tempWord = tempWord.slice(1);
+            }
+            
+            result += `\n  3. Consonant prefix: "${prefixConsonants}"`;
+            result += `\n  4. Remaining: "${tempWord}"`;
+            
+            if (prefixConsonants !== '') {
+                const translated = tempWord + prefixConsonants + 'ay';
+                result += `\n  5. Add "${prefixConsonants}" + "ay": "${translated}"`;
+                result += `\n  Result: "${restoreCase(translated, wasUpper, wasTitle)}"`;
+            } else {
+                const translated = tempWord + 'yay';
+                result += `\n  5. Add "yay": "${translated}"`;
+                result += `\n  Result: "${restoreCase(translated, wasUpper, wasTitle)}"`;
+            }
+            
+            return result;
+        }
+
+        function restoreCase(word, wasUpper, wasTitle) {
+            if (wasUpper) return word.toUpperCase();
+            if (wasTitle) return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            return word;
+        }
+
+        function showResult(text) {
+            document.getElementById('outputText').innerHTML = text.replace(/\n/g, '<br>');
+            document.getElementById('result').style.display = 'block';
+        }
+
+        function clearText() {
+            document.getElementById('inputText').value = '';
+            document.getElementById('result').style.display = 'none';
+        }
+
+        document.getElementById('inputText').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && e.shiftKey) {
+                translateToPigLatin();
+            }
+        });
+    </script>
+</body>
+</html>
