@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Snail Race</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { text-align: center; color: #4ecca3; }
+        .hidden { display: none; }
+        button {
+            background-color: #4ecca3;
+            color: #1a1a2e;
+            border: none;
+            padding: 10px 20px;
+            font-family: inherit;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background-color: #45b08c; }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            width: 200px;
+        }
+        .track-container {
+            background-color: #16213e;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            white-space: pre;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .snail { color: #ff6b6b; }
+        .track-line { color: #4ecca3; }
+        .winner { 
+            color: #ffd93d; 
+            font-size: 24px; 
+            text-align: center;
+            margin: 20px 0;
+        }
+        .error { color: #ff6b6b; }
+        input[type="range"] {
+            width: 200px;
+            accent-color: #4ecca3;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Great Snail Race 🐌</h1>
+    
+    <div id="setup">
+        <p>How many snails will race? (Max: 8)</p>
+        <input type="number" id="numSnails" min="2" max="8" value="3">
+        
+        <p>Race speed:</p>
+        <input type="range" id="raceSpeed" min="1" max="10" value="5">
+        <span id="speedLabel">5</span>
+        <p><small>(1 = slowest, 10 = fastest)</small></p>
+        
+        <button onclick="getNumSnails()">Next</button>
+        <p id="numError" class="error hidden"></p>
+    </div>
+    
+    <div id="names" class="hidden">
+        <p id="namePrompt"></p>
+        <input type="text" id="snailName" maxlength="20">
+        <button onclick="getSnailName()">Add Snail</button>
+        <p id="nameError" class="error hidden"></p>
+        <p>Snails so far: <span id="snailList"></span></p>
+    </div>
+    
+    <div id="race" class="hidden">
+        <div class="winner" id="winner"></div>
+        <div class="track-container" id="track"></div>
+    </div>
+
+    <script>
+        const MAX_NUM_SNAILS = 8;
+        const MAX_NAME_LENGTH = 20;
+        const FINISH_LINE = 40;
+        
+        let numSnailsRacing = 0;
+        let snailNames = [];
+        let snailProgress = {};
+        let currentSnailIndex = 0;
+        let raceInterval = null;
+        let raceDelay = 200;
+        
+        document.getElementById('raceSpeed').addEventListener('input', function(e) {
+            document.getElementById('speedLabel').textContent = e.target.value;
+        });
+        
+        document.getElementById('speedLabel').textContent = document.getElementById('raceSpeed').value;
+        
+        function getNumSnails() {
+            const input = document.getElementById('numSnails');
+            const speedInput = document.getElementById('raceSpeed');
+            const error = document.getElementById('numError');
+            const value = parseInt(input.value);
+            
+            if (isNaN(value) || value < 2 || value > MAX_NUM_SNAILS) {
+                error.textContent = `Enter a number between 2 and ${MAX_NUM_SNAILS}`;
+                error.classList.remove('hidden');
+                return;
+            }
+            
+            numSnailsRacing = value;
+            raceDelay = 1000 / parseInt(speedInput.value);
+            error.classList.add('hidden');
+            
+            document.getElementById('setup').classList.add('hidden');
+            document.getElementById('names').classList.remove('hidden');
+            
+            currentSnailIndex = 1;
+            updateNamePrompt();
+        }
+        
+        function updateNamePrompt() {
+            document.getElementById('namePrompt').textContent = `Enter snail #${currentSnailIndex}'s name:`;
+            updateSnailList();
+        }
+        
+        function updateSnailList() {
+            document.getElementById('snailList').textContent = snailNames.join(', ');
+            document.getElementById('snailName').value = '';
+            document.getElementById('snailName').focus();
+        }
+        
+        function getSnailName() {
+            const input = document.getElementById('snailName');
+            const error = document.getElementById('nameError');
+            const name = input.value.trim();
+            
+            if (name.length === 0) {
+                error.textContent = 'Please enter a name.';
+                error.classList.remove('hidden');
+                return;
+            }
+            
+            if (snailNames.includes(name)) {
+                error.textContent = 'Choose a name that has not already been used.';
+                error.classList.remove('hidden');
+                return;
+            }
+            
+            error.classList.add('hidden');
+            snailNames.push(name);
+            
+            if (snailNames.length < numSnailsRacing) {
+                currentSnailIndex++;
+                updateNamePrompt();
+            } else {
+                startRace();
+            }
+        }
+        
+        function startRace() {
+            document.getElementById('names').classList.add('hidden');
+            document.getElementById('race').classList.remove('hidden');
+            
+            for (let name of snailNames) {
+                snailProgress[name] = 0;
+            }
+            
+            displayTrack();
+            
+            setTimeout(() => {
+                raceInterval = setInterval(raceStep, raceDelay);
+            }, 1500);
+        }
+        
+        function displayTrack() {
+            let output = '';
+            
+            output += 'START' + ' '.repeat(FINISH_LINE - 5) + 'FINISH\n';
+            output += '|' + ' '.repeat(FINISH_LINE - 1) + '|\n';
+            
+            for (let name of snailNames) {
+                const spaces = snailProgress[name];
+                output += ' '.repeat(spaces) + name.substring(0, MAX_NAME_LENGTH) + '\n';
+                output += '.'.repeat(snailProgress[name]) + '@v\n';
+            }
+            
+            document.getElementById('track').textContent = output;
+        }
+        
+        function raceStep() {
+            const numMoves = Math.floor(Math.random() * (Math.floor(numSnailsRacing / 2))) + 1;
+            
+            for (let i = 0; i < numMoves; i++) {
+                const snailName = snailNames[Math.floor(Math.random() * snailNames.length)];
+                snailProgress[snailName]++;
+                
+                if (snailProgress[snailName] >= FINISH_LINE) {
+                    clearInterval(raceInterval);
+                    const winnerText = document.getElementById('winner');
+                    winnerText.textContent = `${snailName} has won!`;
+                    return;
+                }
+            }
+            
+            displayTrack();
+        }
+        
+        document.getElementById('snailName').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                getSnailName();
+            }
+        });
+        
+        document.getElementById('numSnails').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                getNumSnails();
+            }
+        });
+    </script>
+</body>
+</html>
