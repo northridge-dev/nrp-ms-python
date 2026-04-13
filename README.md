@@ -114,10 +114,16 @@ Details for future classes are tentative.
 ### Week Spring.10: Mar 09 - Mar 13
 
 - Mo Mar 09 (36):
+  - make up work
+  - extra credit: average a list of numbers
 - Tu Mar 10 (37): (quarter 3 ends)
+  - finish extra credit if needed
+  - finish addition quiz code
 - We Mar 11: no class (Mother-Son Luncheon)
 - Th Mar 12 (38):
+  - adding more operations: addition quiz -> math quiz
 - Fr Mar 13 (39):
+  - finish math quiz game
 
 ### Week Spring.11: Mar 16 - Mar 20
 
